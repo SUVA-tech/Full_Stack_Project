@@ -14,7 +14,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 		"com.eventwave.config",            // for SecurityConfig
 		"com.eventwave.controller",        // if your controllers are here
 		"com.eventwave.service",           // if your services are here
-		"com.eventwave.repository"         // if you use any additional repositories
+		"com.eventwave.repository",
+		"com.eventwave.exception"
+		// if you use any additional repositories
 	})
 
 public class EventWaveApplication {
